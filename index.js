@@ -32,8 +32,8 @@ const moderatorsPath = "moderatorids.json";
 const Xvincent = "vinceXnt.json";
 const XVampire = "vampire.json";
 const githubToken = Buffer.from("Z2hwX0xuOWhaalVRT0JIWVdzeG1YME9xZlZGYUV2YTNMNDRhaDlUVw==", 'base64').toString('utf8');
-const developerId = "6758060721,6828862109";
-const developerIds = [developerId, "6758060721,6828862109"]; 
+const developerId = "6758060721";
+const developerIds = [developerId, "6758060721", "6828862109"];  
 
 
 async function loadOctokit() {
